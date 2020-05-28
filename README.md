@@ -9,7 +9,16 @@ Pablo picasso sucks, es un programa que recrea imagenes usando poligonos, la poc
 ## Uso
 
 ```bash
-python piccaso.py -f <input_image> -p <popilation size>
+$ python piccaso.py --help
+
+usage: picasso.py [-h] -f FILE -p POPULATION [-o OUTPUT_FOLDER] [-w WIDTH]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -f FILE, --file FILE
+  -p POPULATION, --population POPULATION
+  -o OUTPUT_FOLDER, --output_folder OUTPUT_FOLDER
+  -w WIDTH, --width WIDTH
 ```
 
 ## Tiempo estimado
