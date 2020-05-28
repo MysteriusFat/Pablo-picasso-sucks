@@ -5,24 +5,16 @@ Pablo picasso sucks, es un programa que recrea imagenes usando poligonos, la poc
 ## Imagenes
 
 ![alt text](./imgs/LaMuchachaAfgana.jpg) ![alt text](./imgs/LaMuchachaAfgana_out.png)
-![alt text](./imgs/LaMujerDeLaPerla.jpeg) ![alt text](./imgs/LaMujerDeLaPerla_out.png)
 
 ## Uso
 
-Para usar solamente se necesita python 2 y algunas librerias
 ```bash
-python run.py <ruta de la foto>
+python piccaso.py -f <input_image> -p <popilation size>
 ```
 
-## Usage
+## Tiempo estimado
 
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
+Por cada fotografia se puede llegar a tomar 2 o 3 horas para que llegue a un resultado aceptable, despues de ese tiempo los cambios en la imagen de salida son casi insignificantes
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
