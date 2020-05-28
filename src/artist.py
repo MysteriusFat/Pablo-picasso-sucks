@@ -1,7 +1,6 @@
 import random as rd
 from polygon import Polygon
 from PIL import Image, ImageDraw, ImageFilter
-import tempfile
 from copy import deepcopy
 import math
 

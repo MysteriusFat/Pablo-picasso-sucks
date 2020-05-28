@@ -16,7 +16,7 @@ generation = 0
 output_path = ""
 input_path = ""
 
-# run.py -f -p 
+# run.py -f -p
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("-f", "--file", required=True)
@@ -28,9 +28,9 @@ if __name__ == "__main__":
 
 # Set or create output folder
     if args['output_folder'] == None:
-        if not args['file'] + '_out' in os.listdir('../'):
-            os.mkdir( '../' + args['file'] + '_out', 0755 )
-        output_path = '../' + args['file'] + '_out'
+        if not 'output' in os.listdir('../'):
+            os.mkdir( '../' + 'output', 0755 )
+        output_path = '../' + 'output'
     else:
         if not args['output_folder'] in os.listdir('../'):
             print os.listdir('../')
@@ -50,12 +50,11 @@ if __name__ == "__main__":
     artist.getFittness(parent_img, img)
 
     while(1):
-        for i in range( population ):
-            child_artist = Artist(artist.DNA, 50, size)
-            child_artist.DNA = child_artist.mutate()
-            child_img = child_artist.draw(size,(0,0,0,255))
-            child_artist.getFittness(child_img, img)
-            artists.append( child_artist )
+        child_artist = Artist(artist.DNA, 50, size)
+        child_artist.DNA = child_artist.mutate()
+        child_img = child_artist.draw(size,(0,0,0,255))
+        child_artist.getFittness(child_img, img)
+        artists.append( child_artist )
 
         for child_artist in artists:
             if child_artist.fittness < artist.fittness:
