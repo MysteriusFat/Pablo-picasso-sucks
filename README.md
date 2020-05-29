@@ -24,11 +24,3 @@ optional arguments:
 ## Tiempo estimado
 
 Por cada fotografia se puede llegar a tomar 2 o 3 horas para que llegue a un resultado aceptable, despues de ese tiempo los cambios en la imagen de salida son casi insignificantes
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
