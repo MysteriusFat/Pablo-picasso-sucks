@@ -38,7 +38,7 @@ def fitness_fuction( self, create_img, original_img ):
             self.fittness += math.sqrt((R - R_)**2 + (G-G_)**2 + (B-B_)**2)
 ```
 
-## Pasardo los genes 
+## Pasando los genes 
 
 Para pasar lo genes de generacione en generacion se utilizaron varias tecnicas como crear un nuevo ADN inspirado en el automata con mejor ```fitness```, pasar lo genenes mediante probabilidad siendo el con mejor ```fitness``` con mas posiblidad de reproducirse, etc. Al final la que se implemento fue pasar el mejor automata crear una nueva generacion basado en sus genes exactos y mutarlos dejando solo uno sin cambios por si la generacion no mejora.
 
