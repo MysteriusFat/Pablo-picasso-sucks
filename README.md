@@ -1,4 +1,4 @@
-# Pablo piccaso 
+# Pablo piccaso sucks
 
 Pablo picasso sucks, es un programa que recrea imagenes usando poligonos, la pocicion tamano y color de los poligonos va cambiando mediante un algoritmo genetico, el nombre viene de que el programa crea cuadros terribles como picasso
 
